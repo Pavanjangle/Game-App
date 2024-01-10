@@ -11,9 +11,9 @@ to get real-time Games updates for any location worldwide.
 ![Screenshot (279)](https://github.com/Pavanjangle/Game-App/blob/main/03.jpeg?raw=true)
 ![Screenshot (279)](https://github.com/Pavanjangle/Game-App/blob/main/01.jpeg?raw=true)
 <br><br>
-<br><br>
+
 
 ![Screenshot (279)](https://github.com/Pavanjangle/Game-App/blob/main/Game_site_SS.png?raw=true)
 <br><br>
-<br><br>
+
 #Work in Progress of Application
