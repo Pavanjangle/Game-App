@@ -32,11 +32,11 @@
   background-color: rgb(172, 147, 15);
   padding: 10px;
   font-size: 15px;
-  font-family: 'Fira Sans', sans-serif;  
+  font-family: "Fira Sans", sans-serif;
   border-radius: 5px;
   border: none;
   color: white;
-  
+  cursor: pointer;
 }
 .register {
   border-radius: 5px;
@@ -44,7 +44,8 @@
   color: rgb(172, 147, 15);
   padding: 10px;
   font-size: 15px;
-  font-family: 'Fira Sans', sans-serif;  
+  font-family: "Fira Sans", sans-serif;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -60,9 +61,73 @@
 
   .menu-icon {
     display: block;
+    cursor: pointer;
   }
 
   .logo img {
     max-height: 40px;
   }
+}
+
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  color: #f7f1f1;
+  background-image: url("https://i.pinimg.com/564x/8b/44/70/8b447067d74f0a6834c96558a455f526.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  inset-block: 10px;
+}
+
+.login-modal button {
+  margin-left: 10px;
+  background-color: rgb(172, 147, 15);
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Fira Sans", sans-serif;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+/*  css for sidebar */
+.sidebar {
+  width: 0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(172, 147, 15);
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 2;
+}
+.sidebar-img {
+  width: 170px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.sidebar.open {
+  width: 200px;
+}
+
+.close-button {
+  background-color: rgb(172, 147, 15);
+
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 30px;
+  cursor: pointer;
 }
