@@ -41,7 +41,7 @@ const ButtonCarousel = () => {
             className="icon"
             src="https://cdn-icons-png.flaticon.com/512/8037/8037724.png"
           ></img>
-          <span className="label">Cricket</span>
+          <span className="label">Chess</span>
         </div>
 
         <div className="button">
@@ -49,7 +49,7 @@ const ButtonCarousel = () => {
             className="icon"
             src="https://cdn-icons-png.flaticon.com/512/8037/8037724.png"
           ></img>
-          <span className="label">Cricket</span>
+          <span className="label">Tabletenis</span>
         </div>
       </div>
     </div>
